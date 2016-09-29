@@ -5,4 +5,4 @@ MAINTAINER jann@resmio.com
 RUN apt-get update -qq && apt-get install -y build-essential python python-dev libpq-dev ca-certificates git libxml2-dev libxslt-dev gettext binutils libproj-dev gdal-bin
 
 # Use newer pip
-RUN curl https://bootstrap.pypa.io/get-pip.py | python
+RUN curl https://bootstrap.pypa.io/get-pip.py | python - "pip==8.1.2"
