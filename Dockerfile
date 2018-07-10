@@ -12,7 +12,7 @@ RUN curl https://bootstrap.pypa.io/get-pip.py | python - "pip==9.0.2"
 # When requirements.txt changes, pip installing it again will be much faster
 RUN pip install virtualenv
 COPY requirements.txt /tmp/requirements.txt
-RUN virtualenv /tmp/tmpenv && /tmp/tmpenv/bin/pip install -r /tmp/requirements.txt --src $HOME && rm -r /tmp/tmpenv
+RUN virtualenv /tmp/tmpenv && /tmp/tmpenv/bin/pip install pip==9.0.2 && tmp/tmpenv/bin/pip install -r /tmp/requirements.txt --src $HOME && rm -r /tmp/tmpenv
 
 # we need that for the web container to epxpose that port
 # unfortanly this also effects other containers using that image
