@@ -7,7 +7,7 @@ RUN apt-get update -qq && apt-get upgrade -y && apt-get install -y build-essenti
 # Use newer pip
 RUN curl https://bootstrap.pypa.io/get-pip.py | python - "pip==9.0.2"
 
-# We install a more stable, older version of the requirements to
+# We install an older version of the requirements to
 # an temporary virtualenv so packages can be cached globally.
 # When requirements.txt changes, pip installing it again will be much faster
 RUN pip install virtualenv
