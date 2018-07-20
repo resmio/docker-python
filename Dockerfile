@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER jann@resmio.com 
+MAINTAINER services@resmio.com 
 
 # Install Python and basic dependencies
 RUN apt-get update -qq && apt-get upgrade -y && apt-get install -y build-essential python python-dev libpq-dev ca-certificates git libxml2-dev libxslt-dev gettext binutils libproj-dev gdal-bin libffi-dev
