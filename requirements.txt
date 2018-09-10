@@ -7,7 +7,6 @@
 -e git+https://github.com/kencochrane/django-defender.git@cd587a4f092d9de3c7ea98f8d37572d3b658c7d4#egg=django-defender
 -e git+https://github.com/resmio/django-invoices.git@714b18cd81875074c8211b2da327247f2026e87e#egg=DjangoInvoices
 -e git+https://github.com/resmio/django-longer-username-and-email.git@2d3c313f3adcf31c819e139aafd8849ec55138d6#egg=django-longerusernameandemail
--e git+https://github.com/resmio/django-oauth-plus.git@92b4fcb9a2f8a9ee6eeb504ab0ab0d555c898306#egg=django-oauth-plus
 -e git+https://github.com/resmio/django-pgjson.git@cf0e508e41804740f0980c6f4a23b2683c81f187#egg=django-pgjson
 -e git+https://github.com/resmio/django-sendgrid.git@v0.4.1#egg=django-sendgrid-webhook
 -e git+https://github.com/resmio/django-session-cleanup.git@d957e6944bb0330da93d044c189372d9db2dafc5#egg=django-session-cleanup
@@ -82,7 +81,7 @@ hashids==1.1.0
 hiredis==0.2.0
 html2text==2015.4.14
 html5lib==1.0b10          # via xhtml2pdf
-httplib2==0.10.3          # via google-api-python-client, oauth2, oauth2client, salesforce-bulk, xhtml2pdf
+httplib2==0.10.3          # via google-api-python-client, oauth2client, salesforce-bulk, xhtml2pdf
 idna==2.5                 # via cryptography, email-validator, requests
 inflection==0.3.1         # via python-intercom
 ipaddress==1.0.18         # via cryptography, faker
@@ -98,7 +97,6 @@ mockredispy==2.9.3
 ndg-httpsclient==0.5.1    # via pusher
 newrelic==2.106.1.88
 nose==1.3.7
-oauth2==1.9.0.post1
 oauth2client==4.0.0       # via google-api-python-client
 oauthlib==2.0.1           # via django-oauth-toolkit, requests-oauthlib
 olefile==0.44             # via pillow
