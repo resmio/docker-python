@@ -19,7 +19,6 @@
 amqp==2.1.4               # via kombu
 anyjson==0.3.3
 appdirs==1.4.3            # via zeep
-appnope==0.1.0            # via ipython
 argparse==1.4.0           # via dateutils
 asn1crypto==0.24.0        # via cryptography
 attrs==18.1.0             # via zeep
@@ -65,7 +64,7 @@ django-tastypie==0.14.1
 django-timezone-field==2.0
 django-two-factor-auth==1.6.1
 django-webpack-loader==0.3.0
-django==1.11.15
+django==1.11.18
 django_coverage_plugin==1.3.1
 dnspython==1.15.0         # via email-validator
 email-validator==1.0.2    # via faker
@@ -87,7 +86,7 @@ html5lib==1.0b10          # via xhtml2pdf
 httplib2==0.10.3          # via google-api-python-client, oauth2client, salesforce-bulk, xhtml2pdf
 idna==2.5                 # via cryptography, email-validator, requests
 inflection==0.3.1         # via python-intercom
-ipaddress==1.0.18         # via cryptography, faker, urllib3
+ipaddress==1.0.18         # via cryptography, faker
 ipy==0.83
 ipython-genutils==0.2.0   # via traitlets
 ipython==5.7.0
@@ -97,7 +96,7 @@ lxml==3.6.0               # via premailer, zeep
 mimeparse==0.1.3
 mock==1.0.1
 mockredispy==2.9.3
-munch==2.3.2              # via pybillomat
+munch==2.3.2
 ndg-httpsclient==0.5.1    # via pusher
 newrelic==2.106.1.88
 nose==1.3.7
@@ -134,7 +133,7 @@ python-intercom==2.0.0
 python-mimeparse==0.1.4   # via django-tastypie
 pytz==2016.7
 pyvat==1.3.1
-pyyaml==3.11
+pyyaml==3.13
 qrcode==4.0.4             # via django-two-factor-auth
 raven==6.9.0
 redis==2.10.3
@@ -150,7 +149,7 @@ setproctitle==1.1.8
 simple-salesforce==0.67.3
 simplegeneric==0.8.1      # via ipython
 simplejson==3.6.5
-six==1.10.0               # via bcrypt, cryptography, django-cacheops, django-coverage-plugin, django-oauth-toolkit, faker, freezegun, google-api-python-client, google-auth, html5lib, isodate, oauth2client, pathlib2, prompt-toolkit, pusher, pynacl, pyopenssl, python-dateutil, python-google-places, python-intercom, qrcode, traitlets, tweepy, vcrpy, xhtml2pdf, zeep
+six==1.10.0               # via bcrypt, cryptography, django-cacheops, django-coverage-plugin, django-oauth-toolkit, faker, freezegun, google-api-python-client, google-auth, html5lib, isodate, munch, oauth2client, pathlib2, prompt-toolkit, pusher, pynacl, pyopenssl, python-dateutil, python-google-places, python-intercom, qrcode, traitlets, tweepy, vcrpy, xhtml2pdf, zeep
 slimit==0.8.1
 sqlparse==0.2.3           # via django-debug-toolbar
 suds-jurko==0.6           # via googleads
