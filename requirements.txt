@@ -5,7 +5,7 @@
 #    pip-compile --output-file=docker/python/requirements.txt requirements.in
 #
 -e git+https://github.com/kencochrane/django-defender.git@cd587a4f092d9de3c7ea98f8d37572d3b658c7d4#egg=django-defender
--e git+https://github.com/alex1989/django-invoices.git@6da92f952c5a02a16ef46c87ba72ac31b5935cb4#egg=DjangoInvoices
+-e git+https://github.com/resmio/django-invoices.git@1.0.0#egg=DjangoInvoices
 -e git+https://github.com/resmio/django-longer-username-and-email.git@2d3c313f3adcf31c819e139aafd8849ec55138d6#egg=django-longerusernameandemail
 -e git+https://github.com/resmio/django-pgjson.git@cf0e508e41804740f0980c6f4a23b2683c81f187#egg=django-pgjson
 -e git+https://github.com/resmio/django-sendgrid.git@v0.4.1#egg=django-sendgrid-webhook
@@ -13,8 +13,8 @@
 -e git+https://github.com/resmio/django-sms.git@0.0.5-4#egg=sms
 -e git+https://github.com/orcasgit/django-tastypie-oauth.git@9476797e646d044ce93b9402e7c6827a241fedce#egg=tastypie_oauth
 -e git+https://github.com/resmio/hirefire.git@3bb23433a34ef73b3604ee5536c1305ade8b842a#egg=hirefire
--e git+https://github.com/alex1989/python-billomat.git@0c8a05805ce45d37dde915e1dab9435cf8f36d40#egg=pybillomat
--e git+https://github.com/alex1989/wirecard.git@b914ef2d93187aecb990c8914ef27ab0b1cd8415#egg=Wirecard
+-e git+https://github.com/resmio/python-billomat.git@1.0.0#egg=pybillomat
+-e git+https://github.com/resmio/wirecard.git@3.0.0#egg=Wirecard
 amqp==2.1.4               # via kombu
 anyjson==0.3.3
 argparse==1.4.0           # via dateutils
