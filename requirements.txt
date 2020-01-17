@@ -58,7 +58,7 @@ django-tastypie==0.14.2
 django-timezone-field==3.0
 django-two-factor-auth==1.8.0
 django-webpack-loader==0.6.0
-django==2.2.4
+django==2.2.9
 django_coverage_plugin==1.6.0
 djangorestframework==3.9.4
 dnspython==1.15.0         # via email-validator
@@ -102,6 +102,7 @@ packaging==19.0           # via django-jsoneditor
 pandas==0.21.0
 paramiko==2.4.2
 paypal-checkout-serversdk==1.0.1
+paypalhttp==1.0.0         # via paypal-checkout-serversdk
 pexpect==4.6.0            # via ipython
 phonenumberslite==8.10.14  # via django-phonenumber-field
 pickleshare==0.7.4        # via ipython
@@ -120,7 +121,7 @@ pycparser==2.17           # via cffi
 pygments==2.2.0           # via ipython
 pyjwt==1.7.1
 pynacl==1.2.1             # via paramiko, pusher
-pyopenssl==18.0.0         # via ndg-httpsclient, paypalrestsdk, pusher, requests
+pyopenssl==18.0.0         # via ndg-httpsclient, paypalhttp, pusher, requests
 pyparsing==2.4.0          # via packaging
 pypdf2==1.24
 python-dateutil==2.6.1
@@ -147,7 +148,7 @@ setproctitle==1.1.8
 simple-salesforce==0.74.2
 simplegeneric==0.8.1      # via ipython
 simplejson==3.6.5
-six==1.10.0               # via bcrypt, cryptography, django-appconf, django-cacheops, django-coverage-plugin, faker, freezegun, google-api-python-client, hirefire, html5lib, munch, oauth2client, packaging, paypalrestsdk, prompt-toolkit, pusher, pynacl, pyopenssl, python-dateutil, python-google-places, python-intercom, qrcode, salesforce-bulk, social-auth-app-django, social-auth-core, traitlets, tweepy, vcrpy, xhtml2pdf
+six==1.10.0               # via bcrypt, cryptography, django-appconf, django-cacheops, django-coverage-plugin, faker, freezegun, google-api-python-client, hirefire, html5lib, munch, oauth2client, packaging, paypalhttp, prompt-toolkit, pusher, pynacl, pyopenssl, python-dateutil, python-google-places, python-intercom, qrcode, salesforce-bulk, social-auth-app-django, social-auth-core, traitlets, tweepy, vcrpy, xhtml2pdf
 slimit==0.8.1
 social-auth-app-django==3.1.0
 social-auth-core==3.1.0   # via social-auth-app-django
