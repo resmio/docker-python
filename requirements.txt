@@ -142,7 +142,7 @@ requests-oauthlib==1.0.0  # via social-auth-core, tweepy
 requests[security]==2.22.0
 responses==0.10.9
 rjsmin==1.1.0             # via django-compressor
-rsa==4.6                  # via oauth2client, python-jose
+rsa==4.7                  # via oauth2client, python-jose
 salesforce-bulk==2.1.0
 scipy==1.0.0
 sentry-sdk==0.15.1
