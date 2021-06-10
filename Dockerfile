@@ -1,9 +1,9 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 MAINTAINER services@resmio.com
 
 # Install Python and basic dependencies
 RUN apt-get update -y -qq && apt-get install software-properties-common -y
-RUN add-apt-repository ppa:jonathonf/python-3.6 -y && apt-get update -qq && apt-get upgrade -y && apt-get install -y build-essential python3.6 python3.6-dev libpq-dev ca-certificates git libxml2-dev libxslt-dev gettext binutils libproj-dev gdal-bin libffi-dev
+RUN apt-get update -qq && apt-get upgrade -y && apt-get install -y build-essential python3.6 python3.6-dev libpq-dev ca-certificates git libxml2-dev libxslt-dev gettext binutils libproj-dev gdal-bin libffi-dev
 
 # Use newer pip
 RUN curl https://bootstrap.pypa.io/get-pip.py | python3.6 - "pip==19.1"
