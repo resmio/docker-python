@@ -106,7 +106,7 @@ paypalhttp==1.0.0         # via paypal-checkout-serversdk
 pexpect==4.6.0            # via ipython
 phonenumberslite==8.11.3  # via django-phonenumber-field
 pickleshare==0.7.4        # via ipython
-pillow==8.1.2
+pillow==8.3.2
 ply==3.8                  # via slimit
 polib==1.0.7
 premailer==2.9.0
