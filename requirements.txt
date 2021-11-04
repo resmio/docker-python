@@ -166,8 +166,6 @@ fastjsonschema==2.14.4
     # via -r requirements.in
 freezegun==1.1.0
     # via -r requirements.in
-fudge==1.1.1
-    # via -r requirements.in
 funcy==1.12
     # via django-cacheops
 future==0.18.2
