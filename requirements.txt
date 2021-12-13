@@ -202,7 +202,7 @@ jsonpath-ng==1.5.2
     # via -r requirements.in
 kombu==4.6.11
     # via celery
-lxml==4.6.3
+lxml==4.6.5
     # via premailer
 matplotlib-inline==0.1.2
     # via ipython
