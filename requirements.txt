@@ -262,7 +262,7 @@ pexpect==4.6.0
     # via ipython
 pickleshare==0.7.4
     # via ipython
-pillow==9.0.0
+pillow==9.0.1
     # via
     #   -r requirements.in
     #   reportlab
