@@ -250,7 +250,7 @@ packaging==19.0
     # via django-jsoneditor
 pandas==1.1.5
     # via -r requirements.in
-paramiko==2.7.2
+paramiko==2.10.1
     # via -r requirements.in
 parso==0.8.2
     # via jedi
