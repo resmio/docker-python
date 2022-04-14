@@ -3,7 +3,7 @@ MAINTAINER services@resmio.com
 
 # Install Python and basic dependencies
 RUN apt-get update -y -qq && apt-get install software-properties-common -y
-RUN apt-get update -qq && apt-get upgrade -y && apt-get install -y build-essential python3-distutils python3.10 python3.10-dev libpq-dev ca-certificates git libxml2-dev libxslt-dev gettext binutils libproj-dev gdal-bin libffi-dev
+RUN apt-get update -qq && apt-get upgrade -y && apt-get install -y build-essential python3-distutils python3.10 python3.10-dev libpq-dev ca-certificates git libxml2-dev libxslt-dev gettext binutils libproj-dev gdal-bin libffi-dev libmagic1
 
 # Use newer pip
 RUN curl https://bootstrap.pypa.io/get-pip.py | python3.10 - "pip==22.0.4"
