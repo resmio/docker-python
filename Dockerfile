@@ -1,6 +1,8 @@
 FROM ubuntu:22.04
 MAINTAINER services@resmio.com
 
+ENV DEBIAN_FRONTEND noninteractive
+
 # Install Python and basic dependencies
 RUN apt-get update -y -qq && apt-get install software-properties-common -y
 RUN apt-get update -qq && apt-get upgrade -y && apt-get install -y build-essential python3-distutils python3.10 python3.10-dev libpq-dev ca-certificates git libxml2-dev libxslt-dev gettext binutils libproj-dev gdal-bin libffi-dev libmagic1 wkhtmltopdf
