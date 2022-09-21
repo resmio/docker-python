@@ -223,7 +223,7 @@ jmespath==1.0.0
     #   botocore
 jsonpath-ng==1.5.2
     # via -r requirements.in
-jwcrypto==1.3.1
+jwcrypto==1.4
     # via django-oauth-toolkit
 kombu==5.2.3
     # via celery
