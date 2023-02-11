@@ -211,7 +211,7 @@ imap-tools==0.50.1
     # via -r requirements.in
 ipy==1.01
     # via -r requirements.in
-ipython==7.31.1
+ipython==8.10.0
     # via -r requirements.in
 ipython-genutils==0.2.0
     # via traitlets
